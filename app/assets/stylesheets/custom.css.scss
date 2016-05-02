@@ -1,2 +1,24 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#nav {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    margin-top: 10px;
+    height: 100px;
+    p {
+        text-align: center;
+        padding-top: 30px;
+    }
+    a:hover {
+        color: deepskyblue;
+    }
+}
+
+.about-well {
+    margin-top: 35px;
+}
